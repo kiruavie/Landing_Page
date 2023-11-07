@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+li {
+  list-style-type: none;
+}
+
+img {
+  width: 500px;
+  height: 280px;
+  margin-left: 15px;
+}
+h1 {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: bold;
+}
+
+#logo {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.header-container {
+  background-color: #1f2937;
+  padding: 10px 100px 40px;
+}
+
+.nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.info-nav {
+  display: flex;
+  justify-content: center;
+  padding: 50px 1px;
+}
+
+.title-description {
+  align-items: center;
+  color: #f9faf8;
+  margin-right: 8px;
+}
+
+.title-description a {
+  background: #3882f6;
+  padding: 8px 30px;
+  border-radius: 8px;
+}
+
+.title-description p {
+  margin-top: 10px;
+}
+
+.list-items {
+  display: flex;
+  flex-wrap: wrap; /* Permet aux éléments de passer à la ligne lorsque l'espace est insuffisant */
+  justify-content: center; /* Éspacement égal entre les éléments */
+}
+
+.item-container {
+  height: 200px;
+  display: flex;
+  flex-direction: column; /* Organise l'image et la description verticalement */
+  margin: 10px; /*Ajoute un espacement entre les paires d'images et de descriptions */
+}
+
+.infoImg {
+  width: 100px; /* Ajustez la largeur de l'image selon vos besoins */
+  height: auto; /* Ajustez la hauteur pour maintenir le rapport hauteur-largeur */
+  margin-bottom: 10px; /* Ajoute un espacement entre l'image et la description */
+}
+
+.Thor-dicton {
+  height: 400px;
+  background: #e5e7eb;
+  align-items: center;
+  padding: 70px;
+  font-style: italic;
+  font-size: 36px;
+  color: #1f2937;
+}
+
+.reference {
+  margin-left: 200px;
+  font-weight: bold;
+}
+
+.signup-section {
+  height: 200px;
+  padding: 50px;
+}
+
+.signup-container {
+  height: 100px;
+  width: 1000px;
+  background-color: #3882f6;
+  border: #e5e7eb 1px solid;
+  border-radius: 10px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  padding: 23px;
+  color: #f9faf8;
+}
+
+.signup-btn a {
+  border: #e5e7eb 1px solid;
+  padding: 8px 25px;
+  border-radius: 8px;
+}
+
+.signup-btn {
+  margin-top: 15px;
+}
+
+.footer {
+  padding: 20px;
+  color: #e5e7eb;
+  background-color: #1f2937;
+  text-align: center;
+}
